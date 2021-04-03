@@ -10,7 +10,7 @@ public class MainMenu : MonoBehaviour{
     }
 
     public void StartViewer(){
-
+        SceneManager.LoadScene("ModelViewer");
     }
 
 }
