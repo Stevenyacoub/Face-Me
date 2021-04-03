@@ -5,7 +5,7 @@ public class ModelViewer : MonoBehaviour {
 
     public GameObject modelViewerUI;
     public GameObject BackButton;
-    public GameObject ActiveGameObject;
+    protected GameObject ActiveGameObject;
 
     public void LoadMenu() {
         Debug.Log("Loading menu...");
