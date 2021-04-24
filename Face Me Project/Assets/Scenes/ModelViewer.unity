@@ -206,7 +206,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice01
+  m_Text: Head Slice One
 --- !u!222 &62157676
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -665,7 +665,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice06
+  m_Text: Head Slice Six
 --- !u!222 &285192043
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1587,7 +1587,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice04
+  m_Text: Head Slice Four
 --- !u!222 &752745526
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1932,7 +1932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice02
+  m_Text: Head Slice Two
 --- !u!222 &1017221207
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2152,6 +2152,45 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 2142737182}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &1083608474
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083608473}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!114 &1083608475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3525,7 +3564,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice05
+  m_Text: Head Slice Five
 --- !u!222 &1753448619
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4281,7 +4320,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Slice03
+  m_Text: Head Slice Three
 --- !u!222 &1987186962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4614,7 +4653,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 355f8d9b8d5e2e24e86abb98eee802ed,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 355f8d9b8d5e2e24e86abb98eee802ed,
         type: 3}
